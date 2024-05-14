@@ -3,10 +3,10 @@ h5{
     font-size:15px;
 }
 p{
-    font-size: 12px;
+    font-size: 14px;
 }
 .header{
-    background-color: brown;
+    background-color: #e5989b;
 }
 .p-4{
     font-size: 40px;
@@ -22,14 +22,15 @@ article{
     display: flex;
     flex-direction: row;
     gap:50px;
+    padding-top: 10px;
 }
 h3{
-    color: red;
+    color: white;
     padding-top: 10px;
-    text-shadow: 2px 2px blue;
+    text-shadow: 5px 5px #6d6875;
 }
 body{
-    background-image: conic-gradient(red, bisque,white,brown);
+    background-image: conic-gradient(#ffb4a2, #e5989b);
 }
 .container{
     margin-top: 100px;

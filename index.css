@@ -1,3 +1,12 @@
+html{
+    min-height: 100%;
+    position:relative;
+  }
+*{
+    padding:0;
+    margin:0;
+}
+
 .container{
     padding-top: 150px;
 }
@@ -18,13 +27,20 @@
     font-size: 40px;
 }
 body{
-    background-image: linear-gradient(to right,white , rgb(177, 77, 77));
-}
+    background-image:linear-gradient(#e5989b,#b5838d);
+    height: 100%;
+  width: 100%;}
 button{
-    background-color: rgb(230, 79, 79);
+    background-image:linear-gradient(to right,#e5989b,#6d6875);
     border:none;
     padding:1rem;
     margin-top: 4rem;
     font-weight: 500;
     box-shadow: 5px 5px 10px black;
+}
+.container-fluid{
+    background-color: #b5838d;
+}
+h2{
+
 }

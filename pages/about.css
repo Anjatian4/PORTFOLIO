@@ -1,9 +1,14 @@
+html{
+    min-height: 100%;
+    position:relative;
+  }
 h5{
-    color: red;
-    font-size:15px;
+    color: white;
+    font-size:18px;
 }
 p{
-    font-size: 12px;
+    font-size: 14px;
+    
 }
 .header{
     background-color: brown;
@@ -12,7 +17,14 @@ p{
     font-size: 40px;
     font-weight: 800;
     text-align: center;
+    color: #6d6875;
 }
 body{
-    background-image: linear-gradient(white , rgb(208, 115, 115));
+    background-image:linear-gradient(to right,white,#e5989b);
+}
+.container-fluid{
+    background-color: #e5989b;
+}
+a.nav-link{
+     color:#6d6875;
 }
