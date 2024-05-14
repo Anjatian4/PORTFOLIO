@@ -31,7 +31,7 @@ body{
     height: 100%;
   width: 100%;}
 button{
-    background-image:linear-gradient(to right,#e5989b,#6d6875);
+    background-image:linear-gradient(to right,#e5989b,#b5838d);
     border:none;
     padding:1rem;
     margin-top: 4rem;
@@ -42,5 +42,5 @@ button{
     background-color: #b5838d;
 }
 h2{
-
+color:white;
 }
