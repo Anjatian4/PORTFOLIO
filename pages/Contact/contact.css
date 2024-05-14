@@ -1,0 +1,39 @@
+h5{
+    color: red;
+    font-size:15px;
+}
+p{
+    font-size: 12px;
+}
+.header{
+    background-color: brown;
+}
+.p-4{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+article{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+#phone, #mail, #fb, #link, #github{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+}
+h3{
+    color: red;
+    padding-top: 10px;
+    text-shadow: 2px 2px blue;
+}
+@media only screen and (max-width: 500px){
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+body{
+    background-image: conic-gradient(red, bisque,white,gray,brown);
+}
+}

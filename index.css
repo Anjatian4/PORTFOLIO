@@ -1,0 +1,30 @@
+.container{
+    padding-top: 150px;
+}
+@media only screen and (max-width: 500px){
+    [class*="col-"] {
+        width: 100%;
+    }
+    .container{
+        margin-top: 10px;
+    }
+}
+.col-5{
+    padding-left: 100px;
+}
+.col-sm-3{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+body{
+    background-image: linear-gradient(to right,white , rgb(177, 77, 77));
+}
+button{
+    background-color: rgb(230, 79, 79);
+    border:none;
+    padding:1rem;
+    margin-top: 4rem;
+    font-weight: 500;
+    box-shadow: 5px 5px 10px black;
+}
