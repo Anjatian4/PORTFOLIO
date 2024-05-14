@@ -28,12 +28,9 @@ h3{
     padding-top: 10px;
     text-shadow: 2px 2px blue;
 }
-@media only screen and (max-width: 500px){
-    [class*="col-"] {
-        width: 100%;
-    }
-}
 body{
-    background-image: conic-gradient(red, bisque,white,gray,brown);
+    background-image: conic-gradient(red, bisque,white,brown);
 }
+.container{
+    margin-top: 100px;
 }
